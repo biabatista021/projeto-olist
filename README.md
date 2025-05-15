@@ -32,4 +32,4 @@ projeto-olist/
 
 ## 📝 Autora
 Bianca N. Batista  
-📎 [Meu LinkedIn](www.linkedin.com/in/bianca-nunes-batista626a)
+📎 [Meu LinkedIn](https://www.linkedin.com/in/bianca-nunes-batista-80a468248/?profileId=ACoAAD1K0IoBIBVPe0QuvJ1MBkYvZHqu7knnX5w)
