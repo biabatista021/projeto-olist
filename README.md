@@ -1,14 +1,35 @@
-# 📦 Projeto de Análise Olist - Triggo
+# 📦 Análise de Dados - Olist
 
-Este repositório contém uma análise exploratória dos dados de pedidos da Olist com foco em:
+Este projeto é uma análise exploratória dos dados de vendas da Olist.
 
-- Distância entre cliente e vendedor
-- Correlação com o valor do frete
-- Faturamento por categoria
-- Valor médio de pedidos por estado
+## 🔍 Objetivos
 
-## Tecnologias
+- Explorar os dados da Olist com foco em insights de negócio
+- Analisar relações entre distância, frete e faturamento
+- Identificar padrões de consumo por estado e categoria de produto
+
+## 🧰 Ferramentas Utilizadas
+
 - Python
-- Jupyter Notebook
+- Pandas
 - SQLite
-- Pandas / Seaborn / Matplotlib
+- Matplotlib / Seaborn
+- GitHub
+
+## 📊 Principais Análises
+
+- Valor de frete por distância entre cliente e vendedor
+- Categorias com maior faturamento
+- Estados com maior valor médio de pedidos
+
+## 📁 Estrutura do Projeto
+
+projeto-olist/
+├── dados/ # Arquivos CSV
+├── olist-analise.ipynb # Análise de dados com código Python e SQL
+├── README.md # Documentação do projeto
+├── olist.db # Banco de dados SQLite
+
+## 📝 Autora
+Bianca N. Batista
+📎 [Meu LinkedIn](https://www.linkedin.com/in/bianca-nunes-batista)
