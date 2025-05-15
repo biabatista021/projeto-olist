@@ -25,11 +25,11 @@ Este projeto é uma análise exploratória dos dados de vendas da Olist.
 ## 📁 Estrutura do Projeto
 
 projeto-olist/
-├── dados/ # Arquivos CSV
-├── olist-analise.ipynb # Análise de dados com código Python e SQL
-├── README.md # Documentação do projeto
-├── olist.db # Banco de dados SQLite
+├── dados/ # Arquivos CSV  
+├── olist-analise.ipynb # Análise de dados com código Python e SQL  
+├── README.md # Documentação do projeto  
+├── olist.db # Banco de dados SQLite  
 
 ## 📝 Autora
-Bianca N. Batista
-📎 [Meu LinkedIn](https://www.linkedin.com/in/bianca-nunes-batista)
+Bianca N. Batista  
+📎 [Meu LinkedIn](www.linkedin.com/in/bianca-nunes-batista626a)
