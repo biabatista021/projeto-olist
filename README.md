@@ -33,7 +33,7 @@ projeto-olist/
 
 ## 🗺️ Modelo Relacional do Banco de Dados
 
-![Modelo Relacional do Banco de Dados](modelo-relacional.png)
+![Modelo Relacional do Banco de Dados](imagens\modelo_relacional.png)
 
 ## 📝 Autora
 Bianca N. Batista  
