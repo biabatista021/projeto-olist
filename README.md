@@ -94,6 +94,53 @@ SP, RJ e MG, apesar de concentrarem o maior número de pedidos, têm valores mé
 
 ## 📈 Problemas de Negócio
 
+Nesta etapa, foram analisadas questões práticas com o objetivo de extrair insights e propor soluções baseadas em dados para melhorar a operação e a experiência do cliente no e-commerce.
+
+### 📌 1. Análise de Retenção 
+
+**Objetivo:** Identificar a proporção de clientes recorrentes (com mais de um pedido no período analisado).
+
+**Abordagem:** Agrupamento de pedidos por cliente e contagem das compras realizadas.
+
+**Resultado:** 3.12% dos clientes são recorrentes, o que sugere oportunidades de fidelização e estratégias de retenção para aumentar essa taxa.
+
+### 📌 2. Predição de Atraso na Entrega
+
+**Objetivo:** Prever se um pedido será entregue com atraso.
+
+**Definição de atraso:** Entregas com data posterior ao prazo estimado (`order_delivered_customer_date` > `order_estimated_delivery_date`).
+
+**Modelo:** Foi utilizado Random Forest, com dados como tipo de produto, tempo de processamento, estado do cliente, entre outros.
+
+**Desempenho:** A acurácia do modelo foi de aproximadamente 0.87, com precisão e recall 0.12/0.08. O modelo está viciado em prever que os pedidos NÃO estão atrasados, pois essa é a classe majoritária. Isso acontece porque a variável atrasado é desbalanceada: provavelmente 90% dos pedidos são entregues no prazo.
+
+### 📌 3. Segmentação de Clientes (Clustering)
+
+**Objetivo:** Agrupar clientes com comportamentos semelhantes para estratégias de marketing personalizadas.
+
+**Técnica utilizada:** K-Means, com base em métricas como valor total de compras, quantidade de pedidos e frete médio.
+
+**Resultado:** Foram encontrados 3 grupos distintos de clientes, como:
+
+- Clientes de alto valor e frequência (potenciais para programas de fidelidade),
+
+- Clientes de baixo valor e baixa frequência (o que pode indicar problemas com o serviço ou produto),
+
+- Clientes com baixa frequência (clientes que compram pouco mas estão satisfeitos).
+
+### 📌 4. Análise de Satisfação
+
+**Objetivo:** Investigar fatores que influenciam a avaliação dos clientes.
+
+**Abordagem:** Análise de correlação entre a nota de avaliação e variáveis como valor do pedido, frete e prazo de entrega.
+
+**Conclusões:**
+
+- A avaliação média não possui forte correlação com os valores financeiros (frete, valor total).
+
+- Fatores qualitativos (como tempo de entrega e atendimento) podem ter maior impacto na satisfação.
+
+- Estados com melhor avaliação média podem indicar boas práticas logísticas.
 
 ## 📝 Autora
 Feito com 💙 por Bianca ✨  
