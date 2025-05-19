@@ -142,6 +142,12 @@ Nesta etapa, foram analisadas questões práticas com o objetivo de extrair insi
 
 - Estados com melhor avaliação média podem indicar boas práticas logísticas.
 
+## 📊 Dashboard - Evolução das Vendas
+
+![](dashboard/dash01.png)
+
+![](dashboard/dash02.png)
+
 ## 📝 Autora
 Feito com 💙 por Bianca ✨  
 📎 [Meu LinkedIn](https://www.linkedin.com/in/bianca-nunes-batista-80a468248/?profileId=ACoAAD1K0IoBIBVPe0QuvJ1MBkYvZHqu7knnX5w)
